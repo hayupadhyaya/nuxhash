@@ -26,7 +26,7 @@ DEFAULT_SETTINGS = {
         'units': 'mBTC'
         },
     'donate': {
-        'optout': False
+        'optout': True
         },
     'excavator_miner': {
         'listen': '',
@@ -162,4 +162,3 @@ def _mkdir(d):
     except OSError:
         if not os.path.isdir(d):
             raise
-
