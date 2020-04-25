@@ -11,9 +11,9 @@ SETTINGS_FILENAME = 'settings.conf'
 BENCHMARKS_FILENAME = 'benchmarks.json'
 DEFAULT_SETTINGS = {
     'nicehash': {
-        'wallet': '',
+        'wallet': '3QatmD72Fcvj1LGhhT3b4yWEaF4VQq5S6B',
         'workername': 'nuxhash',
-        'region': 'usa',
+        'region': 'hk',
         'api_organization': '',
         'api_key': '',
         'api_secret': ''
