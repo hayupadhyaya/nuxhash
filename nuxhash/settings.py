@@ -6,14 +6,14 @@ from collections import defaultdict
 from pathlib import Path
 
 
-DEFAULT_CONFIGDIR = Path(os.path.expanduser('~/.config/nuxhash'))
+DEFAULT_CONFIGDIR = Path(os.path.expanduser('~/content/nuxhash'))
 SETTINGS_FILENAME = 'settings.conf'
 BENCHMARKS_FILENAME = 'benchmarks.json'
 DEFAULT_SETTINGS = {
     'nicehash': {
         'wallet': '3QatmD72Fcvj1LGhhT3b4yWEaF4VQq5S6B',
-        'workername': 'nuxhash',
-        'region': 'hk',
+        'workername': 'test',
+        'region': 'usa',
         'api_organization': '',
         'api_key': '',
         'api_secret': ''
