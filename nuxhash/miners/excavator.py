@@ -12,7 +12,7 @@ from nuxhash.utils import get_port
 ALGORITHMS = [
 
     'blake2s'
-    
+
     ]
 NHMP_PORT = 3200
 
